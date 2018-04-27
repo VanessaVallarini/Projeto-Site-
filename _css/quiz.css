@@ -1,0 +1,1044 @@
+﻿body {
+    background: url("../_imagens/v.png") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+	overflow: auto;
+	padding: 50px 50px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	width: 60%;
+	height: 90%;
+	 overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+	margin-bottom: 2%;
+	margin-top: -4%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #5A6772;
+	color: #fff;
+}
+
+.buttons {
+    margin-top: 3%;
+	margin-left: 8%;
+	margin-bottom: -3%
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+	border: 1px solid #1D3C6A;
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+	margin: 5% 5% 5% 0%;
+	padding: 2% 2%;
+	width: 250px;
+	font-size: 30px;
+	transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Galaxy S5, Pixel, Iphone5, Iphone 6 7 e 8, Iphone 6 7 e 8 Plus DE PÉ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2)  
+  and (orientation : portrait){
+body {
+    background: url("../_imagens/quizCelular2.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+	 overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+	margin-bottom: 2%;
+	margin-top: -4%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #5A6772;
+	color: #fff;
+}
+
+.buttons {
+    margin-top: 5%;
+	margin-left: 8%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 10% 5% 0%;
+    padding: 2% 2%;
+    width: 600px;
+    font-size: 70px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+}
+
+}
+  
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Galaxy S5,Iphone5, Iphone 6 7 e 8, Iphone 6 7 e 8 Plus DEITADO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+	and (orientation : landscape)  {
+body {
+    background: url("../_imagens/sansungDeitado.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+    margin-bottom: 0%;
+    margin-top: -6%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #5A6772;
+    color: #fff;
+    margin-bottom: -3%;
+	margin-top: -1%;
+}
+
+.buttons {
+	margin-left: 8%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 7% 0% 0%;
+    padding: 2% 2%;
+    width: 300px;
+    font-size: 30px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -1%;
+}
+}	
+  
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pixel 2X DE PÉ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (device-width: 411px) 
+  and (device-height: 823px)
+  and (orientation : portrait){
+body {
+    background: url("../_imagens/quizCelular2.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+	 overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+	margin-bottom: 10%;
+	margin-top: -4%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: #5A6772;
+	color: #fff;
+}
+
+.buttons {
+    margin-top: 3%;
+	margin-left: 8%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 10% 5% 0%;
+    padding: 2% 2%;
+    width: 600px;
+    font-size: 70px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+  }
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pixel 2 DEITADO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (device-width: 823px) 
+  and (device-height: 411px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+	and (orientation : landscape)  {
+body {
+    background: url("../_imagens/sansungDeitado.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+    margin-bottom: 0%;
+    margin-top: -6%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #5A6772;
+    color: #fff;
+    margin-bottom: -3%;
+	margin-top: -1%;
+}
+
+.buttons {
+	margin-left: 8%;
+	margin-bottom: -2%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 7% 0% 0%;
+    padding: 2% 2%;
+    width: 300px;
+    font-size: 30px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -1%;
+}
+	
+}	
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*iPhone X de PÉ/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3)
+	and (orientation : portrait)	{
+body {
+    background: url("../_imagens/quizCelular2.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 85%;
+    height: 90%;
+	 overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+	margin-bottom: 10%;
+	margin-top: -4%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    color: #5A6772;
+	color: #fff;
+}
+
+.buttons {
+    margin-top: 3%;
+	margin-left: 8%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 10% 5% 0%;
+    padding: 2% 2%;
+    width: 600px;
+    font-size: 70px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+  }
+  
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*iPhone X DEITADO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (device-width: 812px) 
+  and (device-height: 375px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+	and (orientation : landscape)  {
+body {
+    background: url("../_imagens/sansungDeitado.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+    margin-bottom: 0%;
+    margin-top: -6%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #5A6772;
+    color: #fff;
+    margin-bottom: -3%;
+	margin-top: -1%;
+}
+
+.buttons {
+	margin-left: 8%;
+	margin-bottom: -2%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 7% 0% 0%;
+    padding: 1% 2%;
+    width: 300px;
+    font-size: 30px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -1%;
+}
+}	
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Ipad DE PÉ/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (device-width: 768px) 
+  and (device-height: 1024px)
+  and (orientation : portrait){ 
+ body {
+    background: url("../_imagens/quizCelular2.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+	overflow: auto;
+	padding: 50px 50px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	width: 80%;
+    height: 90%;
+	 overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+	margin-bottom: 2%;
+	margin-top: -4%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #5A6772;
+	color: #fff;
+}
+
+.buttons {
+    margin-top: 5%;
+	margin-left: 8%;
+	margin-bottom: -4%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 0% 5% 5% 0%;
+    padding: 2% 2%;
+    width: 580px;
+    font-size: 50px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+}
+  }
+  
+  
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
+/**Ipad DEITADO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (device-width: 1024px) 
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+	and (orientation : landscape)  {
+body {
+    background: url("../_imagens/proDeitado.png") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #5A6772;
+    color: #fff;
+    margin-bottom: -3%;
+}
+
+.buttons {
+	margin-left: 8%;
+	margin-bottom: -2%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 7% 0% 0%;
+    padding: 2% 2%;
+    width: 300px;
+    font-size: 40px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+}
+ 
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/**Ipad Pro de PÉ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+	and (device-width: 1024px) 
+    and (device-height: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) 
+	and (orientation : portrait) {  
+ body {
+    background: url("../_imagens/quizCelular2.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+	overflow: auto;
+	padding: 50px 50px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	width: 80%;
+    height: 90%;
+	 overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+	margin-bottom: 2%;
+	margin-top: -4%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #5A6772;
+	color: #fff;
+}
+
+.buttons {
+    margin-top: 5%;
+	margin-left: 8%;
+	margin-bottom: -4%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 0% 5% 5% 0%;
+    padding: 2% 2%;
+    width: 580px;
+    font-size: 50px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+}
+  }
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/**Ipad Pró DEITADO ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen 
+  and (device-width: 1366px) 
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) 
+	and (orientation : landscape)  {
+body {
+    background: url("../_imagens/proDeitado.png") center center no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.tabela {
+    border-radius: 5%;
+    background: rgba(0,0,0,.8);
+    overflow: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.tabela h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.tabela #question {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #5A6772;
+    color: #fff;
+}
+
+.buttons {
+	margin-left: 8%;
+	margin-bottom: -2%;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #204345;
+    border: 1px solid #1D3C6A;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    margin: 5% 11% 0% 0%;
+    padding: 2% 2% 2% 2%;
+    width: 400px;
+    font-size: 50px;
+    transition: all .5s ease;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #007c8e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+	}	
+		
+		
+		
+		
+		
+		
+		
+		
+		

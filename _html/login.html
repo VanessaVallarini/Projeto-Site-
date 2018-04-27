@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="br">
+<head>
+	<meta charset="utf-8">
+
+	<title>Quiz Liga da Justiça</title>
+	<meta name="Projeto Web Responsivo" content="Quiz Liga da Justiça">
+	<meta name="Autora" content="Vanessa Vallarini">
+	
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../_css/login.css">
+	
+	
+</head>
+	
+<body>
+	<a class="logo" href="./login.html"><img src="../_imagens/logo.png" class="logo" alt="Quiz Liga da Justiça!"></a>
+	<button id="modalBtn" class="btn">INICIAR QUIZ</button>
+		<div id="myModal" class="modal">
+			<div class="modalContent">
+				<div class="modalHeader">
+					<span id="close" class="close">&#9874;</span>
+				</div>
+				<div class="modalBody">
+					<div class="loginBox">
+						<img src="../_imagens/avatar.png" class="avatar">
+							<h1>Login</h1>
+								<form name="form1"  onsubmit="return validaVazio()">
+									<p>Usuário</p>
+									<input type="text" name="username" placeholder="" autocomplete="off">
+									<p>Senha</p>
+									<input type="password" name="password" placeholder="" autocomplete="off">
+									<input type="submit" name="submit" value="Entrar">
+								</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<script src="../_js/login.js"></script>
+</body>
+
+</html>
